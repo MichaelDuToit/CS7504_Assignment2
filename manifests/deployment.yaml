@@ -14,7 +14,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - name: demobookk8s
-        image: michaeldt/CS7504Assignemnt2:v1
+      - name: assignment2k8s
+        image: michaeldt/assignment2:v1
         ports:
         - containerPort: 80
